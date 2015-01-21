@@ -19,18 +19,18 @@ private int smallestBranch = 10;
 private double branchAngle = .4f;  
 public void setup() 
 {   
-	size(640,480);    
+	size(640,520);    
 	noLoop(); 
 } 
 public void draw() 
 {   
 	background(0);   
 	stroke(81,156,237);   
-	line(320,480,320,380);
-	line(200,480,200,420);
-	line(440,480,440,420);
-	line(280,480,280,420);
-	line(360,480,360,420);
+	line(320,520,320,380);
+	line(200,520,200,420);
+	line(440,520,440,420);
+	line(280,520,280,420);
+	line(360,520,360,420);
 	drawBranches(320,380,100,3*Math.PI/2);
 	drawBranches(200,420,60,13*Math.PI/10);
 	drawBranches(440,420,60,17*Math.PI/10);
